@@ -13,20 +13,25 @@ I never write a perfectly structured prompt. I open a voice note, talk the way i
 
 You check the result, say "ok", and get one clean request to paste into a new chat.
 
-## Use it in any AI chat (ChatGPT, Gemini, Claude)
+## Quick start: any AI chat
 
-Copy the prompt and paste it at the start of a conversation:
+Copy the prompt and paste it at the start of a conversation, then send your voice note transcript or messy text:
 
 - 🇦🇺 English: [prompt-en.md](prompt-en.md)
 - 🇧🇷 Português: [prompt-pt-br.md](prompt-pt-br.md)
 
-## Use it as a Claude skill
+## Save it once, use it every time
 
-1. Download [`coce.zip`](coce.zip) (the `coce` folder with its `SKILL.md`, ready to upload).
-2. In Claude, go to **Customize › Skills**, click **+**, then **Create skill › Upload a skill**, and choose the zip.
-3. Send Claude your voice note transcript and ask it to organise it with C.O.C.E.
+So you don't have to paste it in every chat, save it inside your AI:
 
-Skills need **Code execution and file creation** turned on in **Settings › Capabilities**.
+| AI | Where it goes | How |
+|---|---|---|
+| **Claude** | Skill | Download [`coce.zip`](coce.zip). Go to **Customize › Skills**, click **+**, then **Create skill › Upload a skill**, and choose the zip. Needs **Code execution and file creation** on in **Settings › Capabilities**. |
+| **Gemini** | Skill | Download [`coce.zip`](coce.zip). In gemini.google.com, go to **Customize › Skills**, click **Create › Upload** and choose the zip (or the `SKILL.md` file). |
+| **ChatGPT** | Project | Create a **New project** (e.g. "C.O.C.E."). Open the project's **••• › Project settings** and paste the prompt from [prompt-en.md](prompt-en.md) into the instructions. Start your chats inside that project. |
+| **Copilot** | Agent | In the Microsoft Copilot app, under **Agents**, select **New agent**, choose **Configure**, and paste the prompt from [prompt-en.md](prompt-en.md) into **Instructions**. |
+
+The same `SKILL.md` works as a skill in Claude and Gemini. For ChatGPT and Copilot, use the copy-paste prompt.
 
 ## Example
 
